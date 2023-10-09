@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    height: 25px;
+    zoom: 200%;
+}
+.nav > button {
+    appearance: none;
+    width: 999vw;
+    font-size: medium;
+    border: none;
+    background-color: #4cae54;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6, text, p, t {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects {
+    background-color: #d83367;
+    width: 100vw;
+    height: 100px;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones */
+    .projects {
+        background-color: #CCDDD3;
+    }
+}
