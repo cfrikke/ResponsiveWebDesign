@@ -36,3 +36,13 @@ h1, h2, h3, h4, h5, h6, text, p, t {
         font-family: cursive;
     }
 }
+
+@media only screen and (min-width:500px) and (max-width) {
+    /* For mobile phones */
+    .projects {
+        background-color: #AFC2D5;
+    }
+    h1, h2, h3, h4, h5, h6, t, p {
+        font-family: fantasy;
+    }
+}
