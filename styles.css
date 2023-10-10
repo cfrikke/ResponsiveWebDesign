@@ -31,6 +31,8 @@ h1, h2, h3, h4, h5, h6, text, p, t {
     /* For mobile phones */
     .projects {
         background-color: #CCDDD3;
+    }
+    h1, h2, h3, h4, h5, h6, t, p {
         font-family: cursive;
     }
 }
