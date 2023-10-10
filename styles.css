@@ -35,9 +35,15 @@ h1, h2, h3, h4, h5, h6, text, p, t {
     h1, h2, h3, h4, h5, h6, t, p {
         font-family: cursive;
     }
+    .aboutme {
+      margin-top: 125px;
+    }
+    
     .nav {
+        flex-direction: row;
         flex-wrap: wrap;
     }
+    
 }
 
 @media only screen and (min-width:501px) and (max-width:850px) {
