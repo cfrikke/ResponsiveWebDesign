@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, text, p, t {
         font-family: fantasy;
     }
 }
-@media only screen and (min-width:1900px) and (min-height:1000) {
+@media only screen and (min-width:1900px){
     /* For tablets */
     .projects {
         background-color: #0021f3;
