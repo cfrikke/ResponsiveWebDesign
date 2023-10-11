@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.nav {
+    display: flex;
+    height: 25px;
+    zoom: 200%;
+}
+.nav > button {
+    appearance: none;
+    width: 999vw;
+    font-size: medium;
+    border: none;
+    background-color: #4cae54;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6, text, p, t {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.projects {
+    background-color: #d83367;
+    width: 100vw;
+    height: 100px;
+    color: black;
+    text-align: center;
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones */
+    .projects {
+        background-color: #CCDDD3;
+    }
+    h1, h2, h3, h4, h5, h6, t, p {
+        font-family: cursive;
+    }
+    .aboutme {
+      margin-top: 125px;
+    }
+    
+    .nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+}
+@media only screen and (min-width:501px) and (max-width:800px) {
+    /* For tablets */
+    .projects {
+        background-color: #AFC2D5;
+    }
+    h1, h2, h3, h4, h5, h6, t, p {
+        font-family: fantasy;
+    }
+}
+@media only screen and (min-width:800px) {
+    /* For tablets */
+    .projects {
+        background-color: #FFF9A5;
+    }
+    h1, h2, h3, h4, h5, h6, t, p {
+        font-family: fantasy;
+    }
+}
+@media only screen and (min-width:1900px) and (min-height:1000) {
+    /* For tablets */
+    .projects {
+        background-color: #0021f3;
+    }
+    h1, h2, h3, h4, h5, h6, t, p {
+        font-family: sans-serif;
+    }
+}
+@media only screen and (min-width:7612) and (min-height:3820) {
+    /* For tablets */
+    .projects {
+        background-color: #05014a;
+    }
+    h1, h2, h3, h4, h5, h6, t, p {
+        font-family: monospace;
+    }
+    .hide {
+    opacity: 100%;
+    }
+}
+
+.bottom {
+margin-top: 2659px;
+width: 304px;
+height: 100px;
+font-size: 69px;
+margin-left: 50vw;
+}
